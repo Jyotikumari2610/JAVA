@@ -76,7 +76,23 @@ public class PostPractice{
         System.out.println(str1+(a+b)+str2);
         System.out.println(str1+a+b+str2);
         */
-        //Switch statement
+                //opetators
+              /* int a=23;
+                int b=45;
+                System.out.println(a+b);
+                System.out.println(a-b);
+                System.out.println(a*b);
+                System.out.println(b/a);
+                System.out.println(b%a);
+                int c=++a;
+                int d=b++;
+                System.out.println(c);
+                System.out.println(d);
+                int result=0;
+                result=(a==b)?100:200;     //ternary operator
+                System.out.println(result);
+                */
+                //Switch statement
    /*   int day=3;
         switch (day){
             case 1:
@@ -102,25 +118,8 @@ public class PostPractice{
                 break;
             default:
                 System.out.println("Invalid day");
-        }  
-                */
-                //opetators
-          /*      int a=23;
-                int b=45;
-                System.out.println(a+b);
-                System.out.println(a-b);
-                System.out.println(a*b);
-                System.out.println(b/a);
-                System.out.println(b%a);
-                int c=++a;
-                int d=b++;
-                System.out.println(c);
-                System.out.println(d);
-                int result=0;
-                result=(a==b)?100:200;     //ternary operator
-                System.out.println(result);
-        */
-         //new version of Switch statement 
+        }*/
+          //new version of Switch statement 
         /* String day="Friday";
           switch (day){
             case "Monday"-> System.out.println("Today is Monday");
@@ -157,3 +156,4 @@ public int add(int n1,int n2){
 }
     }
     
+
