@@ -67,3 +67,30 @@ System.out.println("Reverse order of String ArrayLists: ");
     }
     }
 }
+
+import java.util.*;
+public class main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        ArrayList<Integer> jkk=new ArrayList<Integer>(5);
+        for(int i=0;i<5;i++){
+            jkk.add(sc.nextInt());
+        }
+        System.out.println("The lists are:"+jkk);
+        jkk.add(2,33);
+        jkk.remove(4);
+        System.out.println("updated lists are:"+jkk);
+        boolean m=jkk.contains(31);
+        System.out.println(m);
+    }
+}
+
+output:
+67
+90
+43
+31
+56
+The lists are:[67, 90, 43, 31, 56]
+updated lists are:[67, 90, 33, 43, 56]
+false
