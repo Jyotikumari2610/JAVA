@@ -42,7 +42,7 @@ public class ArrayQ {
             int rev=0;
             for(int i=n-1;i>=0;i--){
                 rev=arr[i];
-                System.out.println("Revesed array:"+rev);
+                System.out.println(+rev);
             }
             }
     }
